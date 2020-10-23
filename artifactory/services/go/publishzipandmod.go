@@ -5,13 +5,13 @@ import (
 	"net/url"
 	"strings"
 
-	rthttpclient "github.com/jfrog/jfrog-client-go/artifactory/httpclient"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
-	"github.com/jfrog/jfrog-client-go/utils/version"
+	rthttpclient "github.com/cobalt77/jfrog-client-go/artifactory/httpclient"
+	"github.com/cobalt77/jfrog-client-go/artifactory/services/utils"
+	"github.com/cobalt77/jfrog-client-go/auth"
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/httputils"
+	"github.com/cobalt77/jfrog-client-go/utils/version"
 )
 
 func init() {
@@ -64,7 +64,7 @@ func addGoVersion(version string, urlPath *string) {
 }
 
 // localPath - The location of the file on the file system.
-// moduleId - The name of the module for example github.com/jfrog/jfrog-client-go.
+// moduleId - The name of the module for example github.com/cobalt77/jfrog-client-go.
 // version - The version of the project that being uploaded.
 // props - The properties to be assigned for each artifact
 // ext - The extension of the file: zip, mod, info. This extension will be joined with the version for the path. For example v1.2.3.info or v1.2.3.zip

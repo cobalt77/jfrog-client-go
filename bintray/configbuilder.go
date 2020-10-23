@@ -1,7 +1,7 @@
 package bintray
 
 import (
-	"github.com/jfrog/jfrog-client-go/bintray/auth"
+	"github.com/cobalt77/jfrog-client-go/bintray/auth"
 )
 
 func NewConfigBuilder() *bintrayServicesConfigBuilder {

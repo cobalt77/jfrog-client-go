@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils/tests"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/cobalt77/jfrog-client-go/artifactory/services"
+	"github.com/cobalt77/jfrog-client-go/artifactory/services/utils"
+	"github.com/cobalt77/jfrog-client-go/artifactory/services/utils/tests"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
 	"github.com/stretchr/testify/assert"
 )
 

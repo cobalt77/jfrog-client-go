@@ -2,11 +2,12 @@ package fileutils
 
 import (
 	"archive/zip"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
 	"io"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
 )
 
 func IsZip(filename string) bool {

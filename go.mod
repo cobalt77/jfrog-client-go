@@ -1,4 +1,4 @@
-module github.com/jfrog/jfrog-client-go
+module github.com/cobalt77/jfrog-client-go
 
 require (
 	github.com/buger/jsonparser v1.0.0

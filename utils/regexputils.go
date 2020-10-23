@@ -1,9 +1,10 @@
 package utils
 
 import (
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
 	"regexp"
 	"strings"
+
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
 )
 
 const CredentialsInUrlRegexp = `((http|https):\/\/.+:.*@)`

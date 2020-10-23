@@ -1,9 +1,10 @@
 package version
 
 import (
-	"github.com/jfrog/jfrog-client-go/utils"
 	"strconv"
 	"strings"
+
+	"github.com/cobalt77/jfrog-client-go/utils"
 )
 
 type Version struct {

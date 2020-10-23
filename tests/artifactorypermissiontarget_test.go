@@ -4,11 +4,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	"github.com/jfrog/jfrog-client-go/httpclient"
 	"net/http"
 	"testing"
 	"time"
+
+	"github.com/cobalt77/jfrog-client-go/artifactory/services"
+	"github.com/cobalt77/jfrog-client-go/httpclient"
 
 	"github.com/stretchr/testify/assert"
 )

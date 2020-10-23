@@ -2,8 +2,9 @@ package utils
 
 import (
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils/log"
 	"testing"
+
+	"github.com/cobalt77/jfrog-client-go/utils/log"
 )
 
 func TestRetryExecutorSuccess(t *testing.T) {

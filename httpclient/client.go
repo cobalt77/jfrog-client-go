@@ -15,12 +15,12 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	ioutils "github.com/jfrog/jfrog-client-go/utils/io"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/cobalt77/jfrog-client-go/utils"
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
+	ioutils "github.com/cobalt77/jfrog-client-go/utils/io"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/httputils"
+	"github.com/cobalt77/jfrog-client-go/utils/log"
 	"github.com/mholt/archiver/v3"
 )
 

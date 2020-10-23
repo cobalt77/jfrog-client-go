@@ -2,14 +2,15 @@ package tests
 
 import (
 	"bufio"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
 	"net"
 	"net/http"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"strings"
+
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
+	"github.com/cobalt77/jfrog-client-go/utils/log"
 )
 
 type HttpServerHandlers map[string]func(w http.ResponseWriter, r *http.Request)

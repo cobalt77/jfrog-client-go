@@ -1,18 +1,18 @@
 package bintray
 
 import (
-	"github.com/jfrog/jfrog-client-go/bintray/services"
-	"github.com/jfrog/jfrog-client-go/bintray/services/accesskeys"
-	"github.com/jfrog/jfrog-client-go/bintray/services/entitlements"
-	"github.com/jfrog/jfrog-client-go/bintray/services/gpg"
-	"github.com/jfrog/jfrog-client-go/bintray/services/logs"
-	"github.com/jfrog/jfrog-client-go/bintray/services/mavensync"
-	"github.com/jfrog/jfrog-client-go/bintray/services/packages"
-	"github.com/jfrog/jfrog-client-go/bintray/services/repositories"
-	"github.com/jfrog/jfrog-client-go/bintray/services/url"
-	"github.com/jfrog/jfrog-client-go/bintray/services/utils"
-	"github.com/jfrog/jfrog-client-go/bintray/services/versions"
-	"github.com/jfrog/jfrog-client-go/httpclient"
+	"github.com/cobalt77/jfrog-client-go/bintray/services"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/accesskeys"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/entitlements"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/gpg"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/logs"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/mavensync"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/packages"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/repositories"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/url"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/utils"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/versions"
+	"github.com/cobalt77/jfrog-client-go/httpclient"
 )
 
 type ServicesManager struct {

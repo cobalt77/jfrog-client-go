@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"time"
 
-	rthttpclient "github.com/jfrog/jfrog-client-go/artifactory/httpclient"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/httpclient"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	rthttpclient "github.com/cobalt77/jfrog-client-go/artifactory/httpclient"
+	"github.com/cobalt77/jfrog-client-go/artifactory/services/utils"
+	"github.com/cobalt77/jfrog-client-go/auth"
+	"github.com/cobalt77/jfrog-client-go/httpclient"
+	clientutils "github.com/cobalt77/jfrog-client-go/utils"
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
 )
 
 const SCAN_BUILD_API_URL = "api/xray/scanBuild"

@@ -3,11 +3,12 @@ package utils
 import (
 	"bufio"
 	"errors"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
 )
 
 type manager struct {

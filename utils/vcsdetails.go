@@ -7,7 +7,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
 )
 
 type (

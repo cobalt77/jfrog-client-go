@@ -2,12 +2,13 @@ package xray
 
 import (
 	"fmt"
-	"github.com/buger/jsonparser"
-	"github.com/jfrog/jfrog-client-go/utils/log"
-	clienttests "github.com/jfrog/jfrog-client-go/utils/tests"
 	"io/ioutil"
 	"net/http"
 	"os"
+
+	"github.com/buger/jsonparser"
+	"github.com/cobalt77/jfrog-client-go/utils/log"
+	clienttests "github.com/cobalt77/jfrog-client-go/utils/tests"
 )
 
 const (

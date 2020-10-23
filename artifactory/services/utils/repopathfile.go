@@ -1,9 +1,10 @@
 package utils
 
 import (
-	"github.com/jfrog/jfrog-client-go/utils"
 	"regexp"
 	"strings"
+
+	"github.com/cobalt77/jfrog-client-go/utils"
 )
 
 // We need to translate the provided download pattern to an AQL query.

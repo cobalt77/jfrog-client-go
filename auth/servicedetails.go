@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
+	"github.com/cobalt77/jfrog-client-go/utils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/httputils"
 )
 
 var expiryHandleMutex sync.Mutex

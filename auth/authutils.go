@@ -5,9 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
 	"strings"
 	"time"
+
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
 )
 
 func extractPayloadFromAccessToken(token string) (TokenPayload, error) {

@@ -3,21 +3,22 @@ package services
 import (
 	"encoding/json"
 	"errors"
-	"github.com/jfrog/jfrog-client-go/bintray/auth"
-	"github.com/jfrog/jfrog-client-go/bintray/services/utils"
-	"github.com/jfrog/jfrog-client-go/bintray/services/versions"
-	"github.com/jfrog/jfrog-client-go/httpclient"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	logutil "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
 	"net/http"
 	"path"
 	"path/filepath"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/cobalt77/jfrog-client-go/bintray/auth"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/utils"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/versions"
+	"github.com/cobalt77/jfrog-client-go/httpclient"
+	clientutils "github.com/cobalt77/jfrog-client-go/utils"
+	logutil "github.com/cobalt77/jfrog-client-go/utils"
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
+	"github.com/cobalt77/jfrog-client-go/utils/log"
 )
 
 func NewDownloadService(client *httpclient.HttpClient) *DownloadService {

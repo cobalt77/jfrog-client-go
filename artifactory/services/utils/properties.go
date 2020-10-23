@@ -4,9 +4,10 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
 	"net/url"
 	"strings"
+
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
 )
 
 type PropertyParseOptions int

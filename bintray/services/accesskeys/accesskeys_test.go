@@ -1,7 +1,7 @@
 package accesskeys
 
 import (
-	"github.com/jfrog/jfrog-client-go/bintray/services/utils/tests"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/utils/tests"
 	"testing"
 )
 

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	rthttpclient "github.com/jfrog/jfrog-client-go/artifactory/httpclient"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	rthttpclient "github.com/cobalt77/jfrog-client-go/artifactory/httpclient"
+	"github.com/cobalt77/jfrog-client-go/auth"
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
 )
 
 type GoService struct {

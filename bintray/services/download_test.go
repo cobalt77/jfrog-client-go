@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/jfrog/jfrog-client-go/bintray/services/utils/tests"
-	"github.com/jfrog/jfrog-client-go/bintray/services/versions"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/utils/tests"
+	"github.com/cobalt77/jfrog-client-go/bintray/services/versions"
 	"testing"
 )
 

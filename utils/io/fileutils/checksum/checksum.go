@@ -5,11 +5,12 @@ import (
 	"crypto/md5"
 	"crypto/sha1"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils/checksum/utils"
 	"hash"
 	"io"
 	"os"
+
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils/checksum/utils"
 )
 
 type Algorithm int

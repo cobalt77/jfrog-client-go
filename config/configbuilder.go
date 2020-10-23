@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/jfrog/jfrog-client-go/auth"
+	"github.com/cobalt77/jfrog-client-go/auth"
 )
 
 func NewConfigBuilder() *servicesConfigBuilder {

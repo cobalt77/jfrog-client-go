@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/distribution/services"
-	distributionServicesUtils "github.com/jfrog/jfrog-client-go/distribution/services/utils"
-	"github.com/jfrog/jfrog-client-go/httpclient"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
+	"github.com/cobalt77/jfrog-client-go/artifactory/services/utils"
+	"github.com/cobalt77/jfrog-client-go/distribution/services"
+	distributionServicesUtils "github.com/cobalt77/jfrog-client-go/distribution/services/utils"
+	"github.com/cobalt77/jfrog-client-go/httpclient"
+	"github.com/cobalt77/jfrog-client-go/utils/io/httputils"
 	"github.com/stretchr/testify/assert"
 )
 

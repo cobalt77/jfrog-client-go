@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/auth/cert"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	"github.com/cobalt77/jfrog-client-go/auth/cert"
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
 )
 
 func ClientBuilder() *httpClientBuilder {

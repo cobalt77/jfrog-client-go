@@ -1,8 +1,8 @@
 package httpclient
 
 import (
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/httpclient"
+	"github.com/cobalt77/jfrog-client-go/auth"
+	"github.com/cobalt77/jfrog-client-go/httpclient"
 )
 
 func ArtifactoryClientBuilder() *artifactoryHttpClientBuilder {

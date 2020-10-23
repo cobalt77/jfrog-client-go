@@ -4,14 +4,15 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/artifactory/buildinfo"
-	rthttpclient "github.com/jfrog/jfrog-client-go/artifactory/httpclient"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
 	"net/http"
+
+	"github.com/cobalt77/jfrog-client-go/artifactory/buildinfo"
+	rthttpclient "github.com/cobalt77/jfrog-client-go/artifactory/httpclient"
+	"github.com/cobalt77/jfrog-client-go/artifactory/services/utils"
+	"github.com/cobalt77/jfrog-client-go/auth"
+	clientutils "github.com/cobalt77/jfrog-client-go/utils"
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
+	"github.com/cobalt77/jfrog-client-go/utils/log"
 )
 
 type BuildInfoService struct {

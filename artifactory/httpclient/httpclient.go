@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/httpclient"
-	ioutils "github.com/jfrog/jfrog-client-go/utils/io"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
+	"github.com/cobalt77/jfrog-client-go/auth"
+	"github.com/cobalt77/jfrog-client-go/httpclient"
+	ioutils "github.com/cobalt77/jfrog-client-go/utils/io"
+	"github.com/cobalt77/jfrog-client-go/utils/io/httputils"
 )
 
 type ArtifactoryHttpClient struct {

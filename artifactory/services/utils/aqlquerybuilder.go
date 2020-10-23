@@ -2,11 +2,12 @@ package utils
 
 import (
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
 	"strconv"
 	"strings"
 
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/fileutils"
+
+	"github.com/cobalt77/jfrog-client-go/utils"
 )
 
 // Returns an AQL body string to search file in Artifactory by pattern, according the the specified arguments requirements.

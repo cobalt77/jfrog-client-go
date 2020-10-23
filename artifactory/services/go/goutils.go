@@ -2,9 +2,10 @@ package _go
 
 import (
 	"encoding/base64"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
 	"strings"
+
+	"github.com/cobalt77/jfrog-client-go/artifactory/services/utils"
+	"github.com/cobalt77/jfrog-client-go/utils/io/httputils"
 )
 
 const GoUploadRetries = 3

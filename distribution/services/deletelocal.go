@@ -4,12 +4,12 @@ import (
 	"errors"
 	"net/http"
 
-	rthttpclient "github.com/jfrog/jfrog-client-go/artifactory/httpclient"
-	artifactoryUtils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	rthttpclient "github.com/cobalt77/jfrog-client-go/artifactory/httpclient"
+	artifactoryUtils "github.com/cobalt77/jfrog-client-go/artifactory/services/utils"
+	"github.com/cobalt77/jfrog-client-go/auth"
+	"github.com/cobalt77/jfrog-client-go/utils"
+	"github.com/cobalt77/jfrog-client-go/utils/errorutils"
+	"github.com/cobalt77/jfrog-client-go/utils/log"
 )
 
 // Delete distributable release bundle from the distribution service.

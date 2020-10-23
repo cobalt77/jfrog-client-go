@@ -1,10 +1,11 @@
 package _go
 
 import (
-	"github.com/jfrog/jfrog-client-go/utils"
 	"reflect"
 	"strings"
 	"testing"
+
+	"github.com/cobalt77/jfrog-client-go/utils"
 )
 
 func TestCreateUrlPath(t *testing.T) {

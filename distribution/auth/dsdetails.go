@@ -1,10 +1,10 @@
 package auth
 
 import (
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/distribution"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/cobalt77/jfrog-client-go/auth"
+	"github.com/cobalt77/jfrog-client-go/config"
+	"github.com/cobalt77/jfrog-client-go/distribution"
+	"github.com/cobalt77/jfrog-client-go/utils/log"
 )
 
 func NewDistributionDetails() *distributionDetails {
