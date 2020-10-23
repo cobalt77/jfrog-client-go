@@ -20,7 +20,7 @@ import (
 	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
 	"github.com/jfrog/jfrog-client-go/utils/io/fileutils/checksum"
 	"github.com/jfrog/jfrog-client-go/utils/log"
-	"github.com/mholt/archiver"
+	"github.com/mholt/archiver/v3"
 )
 
 type DownloadService struct {
@@ -418,13 +418,12 @@ func (ds *DownloadService) downloadFileIfNeeded(downloadPath, localPath, localFi
 
 func explodeLocalFile(localPath, localFileName string) (err error) {
 	log.Info("Extracting archive:", localFileName, "to", localPath)
-	arch := archiver.MatchingFormat(localFileName)
+	arch, err := archiver.ByExtension(localFileName)
 	absolutePath := filepath.Join(localPath, localFileName)
-	err = nil
 
 	// The file is indeed an archive
-	if arch != nil {
-		err := arch.Open(absolutePath, localPath)
+	if err == nil {
+		err := arch.(archiver.Unarchiver).Unarchive(absolutePath, localPath)
 		if err != nil {
 			return errorutils.CheckError(err)
 		}

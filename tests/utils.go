@@ -5,7 +5,6 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils/tests"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -13,6 +12,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/jfrog/jfrog-client-go/artifactory/services/utils/tests"
 
 	artifactoryAuth "github.com/jfrog/jfrog-client-go/artifactory/auth"
 	rthttpclient "github.com/jfrog/jfrog-client-go/artifactory/httpclient"
@@ -25,7 +26,7 @@ import (
 	clientutils "github.com/jfrog/jfrog-client-go/utils"
 	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
 	"github.com/jfrog/jfrog-client-go/utils/log"
-	"github.com/mholt/archiver"
+	"github.com/mholt/archiver/v3"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -334,7 +335,8 @@ func uploadDummyFile(t *testing.T) {
 		t.Error("Failed to upload", failed, "files.")
 	}
 	archivePath := filepath.Join(workingDir, "c.tar.gz")
-	err = archiver.TarGz.Make(archivePath, []string{filepath.Join(workingDir, "out/a.in")})
+	arch := archiver.NewTarGz()
+	err = arch.Archive([]string{filepath.Join(workingDir, "out/a.in")}, archivePath)
 	if err != nil {
 		t.Error(err)
 	}
