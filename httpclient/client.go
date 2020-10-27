@@ -453,7 +453,14 @@ func (jc *HttpClient) DownloadFileConcurrently(flags ConcurrentDownloadFlags, lo
 		if err != nil {
 			return nil, err
 		}
-		arch.(archiver.Unarchiver).Unarchive(flags.LocalFileName, extractionPath)
+		err = arch.(archiver.Unarchiver).Unarchive(flags.LocalFileName, extractionPath)
+		if err != nil {
+			return nil, err
+		}
+		err = os.Remove(flags.LocalFileName)
+		if err != nil {
+			return nil, err
+		}
 	}
 	log.Info(logMsgPrefix + "Done downloading.")
 	return resp, nil
